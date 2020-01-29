@@ -8,8 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/codeup-design-project.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <title></title>
 </head>
 <body>
 
@@ -20,7 +22,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
             <img src="assets/images/logo.jpg" alt="project-logo" class="logo" id="project-logo">
-            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="display-4">codeup design</p>
         </div>
     </div>
     <!--end jumbotron-->
@@ -28,24 +30,24 @@
     <!--start navbar-->
 
     <nav class="navbar navbar-expand navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!--        <a class="navbar-brand" href="#">Navbar</a>-->
+<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"-->
+<!--                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -57,11 +59,11 @@
 
 <div class="container text-center" id="main">
 
-    <h1 class="head-label">
+    <h2 class="head-label" id="custom-text">
         VISUAL DESIGN & WEB DEVELOPMENT
-    </h1>
+    </h2>
     <br>
-    <h3 class="head-pc">FROM PARK CITY, UTAH</h3>
+    <h4 class="head-pc" id="custom-text">FROM PARK CITY, UTAH</h4>
 
 </div>
 
@@ -71,27 +73,27 @@
 
     <div class="row">
 
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 button" id="design">
             <a href="">
-                test
+                DESIGN
             </a>
         </div>
 
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 button" id="develop">
             <a href="">
-                test
+                DEVELOP
             </a>
         </div>
 
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 button" id="support">
             <a href="">
-                test
+                SUPPORT
             </a>
         </div>
 
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 button" id="host">
             <a href="">
-                test
+                HOST
             </a>
         </div>
 
@@ -104,8 +106,8 @@
 <div class="container" id="content">
     <!--    outer grid-->
     <div class="row" id="head-row">
-
         <div class="container col-12 col-sm-12 col-md-8 col-lg-8" id="card-container">
+            <p class="text-center">SELECTED WORK</p>
             <div class="row">
 
 <!--                        start card-->
@@ -115,10 +117,10 @@
                             <img class="card-img-top" src="assets/images/apple-ipad.jpg" alt="">
                             <div class="card-body">
                                 <p class="">FEATURED PROJECT
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
+                                    <span class="badge badge-info text-dark" id="design">D</span>
+                                    <span class="badge badge-info text-dark" id="develop">D</span>
+                                    <span class="badge badge-info text-dark" id="support">S</span>
+                                    <span class="badge badge-info text-dark"id="host">H</span>
                                 </p>
 
                             </div>
@@ -133,10 +135,10 @@
                             <img class="card-img-top" src="assets/images/macbook.jpg" alt="">
                             <div class="card-body">
                                 <p class="">FEATURED PROJECT
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
+                                    <span class="badge badge-info text-dark" id="design">D</span>
+                                    <span class="badge badge-info text-dark" id="develop">D</span>
+                                    <span class="badge badge-info text-dark" id="support">S</span>
+                                    <span class="badge badge-info text-dark"id="host">H</span>
                                 </p>
 
                             </div>
@@ -151,10 +153,10 @@
                             <img class="card-img-top" src="assets/images/man.jpg" alt="">
                             <div class="card-body">
                                 <p class="">FEATURED PROJECT
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
+                                    <span class="badge badge-info text-dark" id="design">D</span>
+                                    <span class="badge badge-info text-dark" id="develop">D</span>
+                                    <span class="badge badge-info text-dark" id="support">S</span>
+                                    <span class="badge badge-info text-dark"id="host">H</span>
                                 </p>
 
                             </div>
@@ -169,10 +171,10 @@
                             <img class="card-img-top" src="assets/images/security.jpg" alt="">
                             <div class="card-body">
                                 <p class="">FEATURED PROJECT
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
-                                    <span class="badge badge-pill badge-info">*</span>
+                                    <span class="badge badge-info text-dark" id="design">D</span>
+                                    <span class="badge badge-info text-dark" id="develop">D</span>
+                                    <span class="badge badge-info text-dark" id="support">S</span>
+                                    <span class="badge badge-info text-dark"id="host">H</span>
                                 </p>
 
                             </div>
@@ -189,6 +191,15 @@
         <div class="container col-12 col-sm-12 col-md-4 col-lg-4 d-none d-md-block" id="last-container">
 
             <p>The last</p>
+            <div>
+                <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+            </div>
+            <div>
+                <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
+            </div>
+            <div>
+                <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
+            </div>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta distinctio eveniet itaque labore, minima vel voluptate? Blanditiis, enim inventore laborum magnam, maiores nam nihil pariatur quod quos sit ut!</p>
 
