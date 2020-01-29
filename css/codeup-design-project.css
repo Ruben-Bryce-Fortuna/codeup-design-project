@@ -28,16 +28,16 @@ h4 {
 h5 {
     font-size: 28px;
 }
-#design {
+.design {
     background-color: #E6563B;
 }
-#develop {
+.develop {
     background-color: #EB9D3A;
 }
-#support {
+.support {
     background-color: #7CB06C;
 }
-#host {
+.host {
     background-color: #00ABA9;
 }
 body {
@@ -50,10 +50,25 @@ body {
 }
 .card {
     background-color: #E6E6E6;
-    border
+    /*border:*/
 }
 .button {
-    color: white;
     border: white 4px solid;
     border-radius: 50%;
+    /*margin: 0 auto;*/
+    padding: 0;
+    height: 105px;
+    width:105px
+}
+.button:hover {
+    border: lightgrey 4px solid;
+    border-radius: 50%;
+}
+.main-button {
+    color:white;
+    height: ;
+}
+.main-button:hover {
+    color:lightgrey;
+    text-decoration: none;
 }
