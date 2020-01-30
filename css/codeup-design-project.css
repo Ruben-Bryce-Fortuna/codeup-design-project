@@ -72,3 +72,9 @@ body {
     color:lightgrey;
     text-decoration: none;
 }
+.btn {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: solid white 4px;
+}
