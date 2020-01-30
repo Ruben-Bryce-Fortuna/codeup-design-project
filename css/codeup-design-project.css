@@ -84,3 +84,16 @@ body {
     border: none;
     background-color: #f0f0f0;
 }
+.fa-twitter {
+    color: #00AACE;
+}
+.tweet {
+    font-size: .75em;
+}
+.card-title {
+    font-size: 1.5em;
+}
+.card-body {
+    padding-bottom: 0;
+    padding-top: 0;
+}
