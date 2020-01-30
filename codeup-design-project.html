@@ -17,11 +17,11 @@
 <body>
 <!--start head-->
 <div class="container-fluid px-0" id="head">
-    <div class="text-center  d-none d-md-block">
+    <div class="text-center  d-none d-sm-block d-md-none">
         <!--first navbar-->
         <div class="banner"></div>
-        <nav class="navbar navbar-expand navbar-light d-none d-md-block">
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand navbar-light d-none d-sm-block">
+            <div class="collapse navbar-collapse navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#">Work</a>
                     </li>
                     <li class="nav-item">
-                        <img src="assets/images/logo.jpg" alt="project-logo" class="logo" id="project-logo">
+                        <img src="assets/images/logo.jpg" alt="project-logo" class="logo project-logo">
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
@@ -49,14 +49,14 @@
 
     <!--start second navbar-->
 
-    <div class="alt-navbar d-md-none">
+    <div class="alt-navbar d-sm-none">
         <div class="logo text-center">
-            <img src="assets/images/logo.jpg" alt="project-logo" class="logo" id="project-logo">
+            <img src="assets/images/logo.jpg" alt="project-logo" class="logo project-logo">
         </div>
         <p class="display-4 text-center">codeup design</p>
         <nav class="navbar navbar-expand navbar-light bg-none d-md-none">
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse navbarNav">
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -76,6 +76,38 @@
         </nav>
     </div>
     <!--    end navbar-->
+
+
+    <div class="d-none d-md-block">
+        <!--first navbar-->
+        <div class="banner banner-lg"></div>
+        <nav class="navbar navbar-expand navbar-light d-none d-md-block navbar-lg">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex extent">
+                    <li class="nav-item">
+                        <img src="assets/images/logo.jpg" alt="project-logo" class="logo project-logo">
+                    </li>
+                    <li class="nav-item">
+                        <p class="mt-3 page-title">codeup design</p>
+                    </li>
+                    <li class="nav-item justify-content-end point-break">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
 </div>
 <!--end head-->
 
@@ -94,9 +126,9 @@
 
 <div class="container text-center">
 
-    <div class="row no-gutters text-center justify-content-center m-4">
+    <div class="row no-gutters text-center m-4"><!-- justify-content-center -->
 
-        <div class="col-6 col-sm-3 col-lg-2 mb-4">
+        <div class="col-6 col-sm-3 offset-lg-2 col-lg-2 mb-4">
             <button type="button" class="btn btn-primary design">DESIGN</button>
         </div>
 
@@ -123,9 +155,9 @@
 <div class="container" id="content">
     <!--    outer grid-->
     <div class="row" id="head-row">
-        <div class="container col-12 col-sm-12 col-lg-8" id="card-container">
+        <div class="container col-12 col-sm-12 col-md-8" id="card-container">
             <p class="text-center text-md-left">SELECTED WORK</p>
-            <div class="row">
+            <div class="row no-gutters">
 
                 <!--                        start card-->
                 <div class="col-12 col-sm-6 mb-5">
@@ -221,7 +253,7 @@
             </div>
 
         </div>
-        <div class="container col-12 col-sm-12 col-md-4 col-lg-4 d-none d-lg-block" id="last-container">
+        <div class="container col-12 col-sm-12 col-md-4 d-none d-md-block" id="last-container">
 
             <p>THE LAST</p>
             <div class="card mb-3">
